@@ -24,7 +24,7 @@ function useItem(x, y, z, itemId, blockId) {
 		}
 		selectionStage = (selectionStage + 1) % 2;
 		preventDefault();
-	} else if (itemId == 295) {
+	} belse if (itemId == 271) {
 		if (clipboard != null) {
 			var newpoint = [x, y, z];
 			pasteCuboid(newpoint);
